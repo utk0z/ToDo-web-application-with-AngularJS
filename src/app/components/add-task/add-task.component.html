@@ -1,0 +1,15 @@
+<form *ngIf="showAddTask" class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label class="formTitle" for="text">Görev :</label>
+        <input type="text" name="text" [(ngModel)]="text" id="text" placeholder="Görev ekle" >
+    </div>
+    <div class="form-control">
+        <label class="formTitle" for="day">Zaman :</label>
+        <input type="text" name="day" [(ngModel)]="day" id="day" placeholder="Gün ve Zaman Ekle" >
+    </div>
+    <div class="form-control form-control-check">
+        <label class="formTitle" for="reminder">Hatırlatıcı :</label>
+        <input type="checkbox" name="reminder" [(ngModel)]="reminder" id="remminder">
+    </div>
+    <input type="submit" value="Görevi Kaydet" class="btn btn-block">  
+</form>

@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+.container{
+    text-align: center;
+    justify-content: center;
+    border: 2px solid whitesmoke;
+    box-shadow: 10px 10px 4px rgba(226, 226, 226, 0.5);
+    border-radius: 10px;
+    width: 450px;
+    margin: 30px auto;
+    min-height: 150;
+    padding: 30px;
+}
+
+p{
+    justify-content: left !important;
+    text-align: left !important;
+}
+
+body{
+    background-color:white ;
+}
+
+h1{
+    color: #2c2d31;
+}
+
